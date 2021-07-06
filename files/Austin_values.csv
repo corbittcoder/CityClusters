@@ -1,0 +1,94 @@
+Name,Lat,Lng,Color
+"Bastrop, Bastrop, TX",30.1104947,-97.3152701,0
+"Cedar Creek, Bastrop, TX",30.0873153,-97.501432,1
+"Elgin, Bastrop, TX",30.3496528,-97.3702735,2
+"Lost Pines, Bastrop, TX",30.0873153,-97.501432,3
+"Austin, Bastrop, TX",30.1073415,-97.316222,0
+"Temple, Bell, TX",31.0982344,-97.342782,1
+"Killeen, Bell, TX",31.1171194,-97.72779589999999,2
+"Belton, Bell, TX",31.0560132,-97.46445299999999,3
+"Fort Hood, Bell, TX",31.13633149999999,-97.7797049,0
+"Salado, Bell, TX",30.9471278,-97.53862040000001,1
+"Harker Heights, Bell, TX",31.0835102,-97.6597376,2
+"Morgans Point, Bell, TX",31.1457322,-97.47528849999999,3
+"Johnson City, Blanco, TX",30.2767408,-98.41198109999999,0
+"Clifton, Bosque, TX",31.78237979999999,-97.5766862,1
+"Brownwood, Brown, TX",31.7093197,-98.9911611,2
+"Marble Falls, Burnet, TX",30.5782297,-98.2729184,3
+"Burnet, Burnet, TX",30.75823759999999,-98.2283585,0
+"Spicewood, Burnet, TX",30.4760499,-98.15657399999999,1
+"Granite Shoals, Burnet, TX",30.5869512,-98.3816672,2
+"Lockhart, Caldwell, TX",29.8849441,-97.6699996,3
+"Lytton Springs, Caldwell, TX",30.0046629,-97.61249889999999,0
+"Copperas Cove, Coryell, TX",31.124062,-97.90307849999999,1
+"Gatesville, Coryell, TX",31.4351645,-97.743911,2
+"El Paso, El paso, TX",31.7618778,-106.4850217,3
+"Anthony, El paso, TX",31.9992676,-106.6055478,0
+"Horizon City, El paso, TX",31.69261209999999,-106.2074793,1
+"Marlin, Falls, TX",31.3062874,-96.89804389999999,2
+"La Grange, Fayette, TX",29.9055033,-96.87664699999999,3
+"Round Top, Fayette, TX",30.0652201,-96.6960867,0
+"Teague, Freestone, TX",31.6271145,-96.28386200000001,1
+"Hamilton, Hamilton, TX",31.7037655,-98.1239231,2
+"San Marcos, Hays, TX",29.8832749,-97.9413941,3
+"Wimberley, Hays, TX",29.9974362,-98.0986204,0
+"Buda, Hays, TX",30.0817231,-97.8428927,1
+"Kyle, Hays, TX",29.9891052,-97.87722670000001,2
+"Dripping Springs, Hays, TX",30.1902067,-98.0866781,3
+"Creedmore, Hays, TX",30.0899368,-97.7338917,0
+"Niederwald, Hays, TX",30.009384,-97.72805729999999,1
+"Woodcreek, Hays, TX",30.0282683,-98.11112109999999,2
+"Georgetown, Hays, TX",30.6933064,-97.73146899999999,3
+"Hillsboro, Hill, TX",32.0109886,-97.13000609999999,0
+"Lampasas, Lampasas, TX",31.06378399999999,-98.18169569999999,1
+"Giddings, Lee, TX",30.1827159,-96.93637100000001,2
+"Jewett, Leon, TX",31.3615664,-96.1441315,3
+"Groesbeck, Limestone, TX",31.5243379,-96.5338693,0
+"Mexia, Limestone, TX",31.6798895,-96.482203,1
+"Kingsland, Llano, TX",30.6582405,-98.44058489999999,2
+"Brady, Mcculloch, TX",31.1351682,-99.3350552,3
+"Waco, Mclennan, TX",31.549333,-97.1466695,0
+"Robinson, Mclennan, TX",31.4676687,-97.1147225,1
+"Hewitt, Mclennan, TX",31.46239019999999,-97.1958377,2
+"West, Mclennan, TX",31.8023057,-97.0909551,3
+"Woodway, Mclennan, TX",31.5059998,-97.20500550000001,0
+"Robison, Mclennan, TX",31.4676687,-97.1147225,1
+"Cameron, Milam, TX",30.8532454,-96.9769304,2
+"Rockdale, Milam, TX",30.6554759,-97.00137439999999,3
+"Goldthwaite, Mills, TX",31.4498855,-98.5708763,0
+"Woodway, Potter, TX",31.5059998,-97.20500550000001,1
+"Franklin, Robertson, TX",31.0260194,-96.4852444,2
+"San Saba, San saba, TX",31.1957234,-98.718098,3
+"San Angelo, Tom green, TX",31.4637723,-100.4370375,0
+"Carlsbad, Tom green, TX",31.6056884,-100.643744,1
+"Austin, Travis, TX",30.267153,-97.7430608,2
+"Lago Vista, Travis, TX",30.4601975,-97.98834769999999,3
+"Pflugerville, Travis, TX",30.4548451,-97.6222665,0
+"Lakeway, Travis, TX",30.3679788,-97.99167899999999,1
+"Horseshoe Bay, Travis, TX",30.5440884,-98.36984609999999,2
+"Manchaca, Travis, TX",30.1405249,-97.8330491,3
+"Del Valle, Travis, TX",30.2091069,-97.6472349,0
+"Georgetown, Travis, TX",30.7240922,-97.7317872,1
+"Sunset Valley, Travis, TX",30.2285878,-97.8150412,2
+"Jonestown, Travis, TX",30.4954748,-97.9233468,3
+"Manor, Travis, TX",30.3407629,-97.55694559999999,0
+"Bee Cave, Travis, TX",30.306098,-97.9523768,1
+"Bee Caves, Travis, TX",30.306098,-97.9523768,2
+"West Lake Hills, Travis, TX",30.2979843,-97.8019515,3
+"Dripping Springs, Travis, TX",30.3423832,-98.1269025,0
+"Round Rock, Travis, TX",30.5082551,-97.678896,1
+"Cedar Park, Travis, TX",30.505198,-97.8202888,2
+"Fflugerville, Travis, TX",30.4548451,-97.6222665,3
+"Westlake Hills, Travis, TX",30.2979843,-97.8019515,0
+"San Marcos, Travis, TX",29.8962969,-97.92374950000001,1
+"Austin, Williamson, TX",30.267153,-97.7430608,2
+"Georgetown, Williamson, TX",30.6332618,-97.6779842,3
+"Round Rock, Williamson, TX",30.5082551,-97.678896,0
+"Cedar Park, Williamson, TX",30.505198,-97.8202888,1
+"Leander, Williamson, TX",30.5788055,-97.8530686,2
+"Taylor, Williamson, TX",30.5701906,-97.4097331,3
+"Liberty Hill, Williamson, TX",30.6649119,-97.9225161,0
+"Florence, Williamson, TX",30.8412954,-97.79362680000001,1
+"Volente, Williamson, TX",30.4338108,-97.9036227,2
+"Hutto, Williamson, TX",30.54269949999999,-97.5466702,3
+"Jarrell, Williamson, TX",30.824616,-97.6043608,0

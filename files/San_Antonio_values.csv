@@ -1,0 +1,107 @@
+Name,Lat,Lng,Color
+"San Antonio, Bexar, TX",29.4241219,-98.49362819999999,0
+"Kerrville, Kerr, TX",30.0474332,-99.1403189,1
+"Mcallen, Hidalgo, TX",26.2034071,-98.23001239999999,2
+"Weslaco, Hidalgo, TX",26.1595194,-97.9908366,3
+"Laredo, Webb, TX",27.5035613,-99.5075519,0
+"Corpus Christi, Nueces, TX",27.8005828,-97.39638099999999,1
+"Portland, San patricio, TX",27.8772463,-97.3238805,2
+"Pharr, Hidalgo, TX",26.1947962,-98.1836216,3
+"Edinburg, Hidalgo, TX",26.3017374,-98.1633432,0
+"Boerne, Kendall, TX",29.79466409999999,-98.7319703,1
+"Victoria, Victoria, TX",28.8052674,-97.0035982,2
+"Harlingen, Cameron, TX",26.1906306,-97.69610259999999,3
+"Brownsville, Cameron, TX",25.9017472,-97.4974838,0
+"South Padre Island, Cameron, TX",26.1118401,-97.16812569999999,1
+"Carrizo Springs, Dimmit, TX",28.5219292,-99.8606107,2
+"Port Aransas, Nueces, TX",27.8339158,-97.06109939999999,3
+"Donna, Hidalgo, TX",26.1703525,-98.05194999999999,0
+"Mc Allen, Hidalgo, TX",26.2034071,-98.23001239999999,1
+"El Paso, El paso, TX",31.7618778,-106.4850217,2
+"New Braunfels, Comal, TX",29.7030024,-98.1244531,3
+"San Angelo, Tom green, TX",31.4637723,-100.4370375,0
+"Dallas, Dallas, TX",32.7766642,-96.79698789999999,1
+"Fredericksburg, Gillespie, TX",30.2752011,-98.8719843,2
+"Cuero, Dewitt, TX",29.0938652,-97.28915680000001,3
+"Gonzales, Gonzales, TX",29.5016257,-97.4524926,0
+"Mercedes, Hidalgo, TX",26.1497977,-97.91361119999999,1
+"Del Rio, Val verde, TX",29.3708857,-100.8958674,2
+"Kenedy, Karnes, TX",28.8191468,-97.8486123,3
+"Rockport, Aransas, TX",28.0205733,-97.0544341,0
+"Kingsville, Kleberg, TX",27.5158689,-97.85610899999999,1
+"Universal City, Bexar, TX",29.5480071,-98.2911235,2
+"Schertz, Guadalupe, TX",29.5521737,-98.269734,3
+"Uvalde, Uvalde, TX",29.20968359999999,-99.7861679,0
+"Jourdanton, Atascosa, TX",28.9180294,-98.5464068,1
+"Karnes City, Karnes, TX",28.8849772,-97.9008355,2
+"Seguin, Guadalupe, TX",29.5688411,-97.9647269,3
+"Hallettsville, Lavaca, TX",29.4438528,-96.9410929,0
+"Garden Ridge, Comal, TX",29.63467079999999,-98.3052907,1
+"San Antonio, Comal, TX",29.4199248,-98.50838859999999,2
+"Eagle Pass, Maverick, TX",28.7091433,-100.4995214,3
+"Beeville, Bee, TX",28.4008319,-97.7483312,0
+"Refugio, Refugio, TX",28.3052838,-97.2752704,1
+"Sinton, San patricio, TX",28.0366818,-97.5091611,2
+"Spring Branch, Comal, TX",29.8405513,-98.4104996,3
+"Mission, Hidalgo, TX",26.2159066,-98.32529319999999,0
+"Cibolo, Guadalupe, TX",29.5854231,-98.24775120000001,1
+"Converse, Bexar, TX",29.5180081,-98.3161241,2
+"Zapata, Zapata, TX",26.9072605,-99.27142549999999,3
+"Sullivan City, Hidalgo, TX",26.2775706,-98.56363300000001,0
+"Yorktown, Dewitt, TX",28.9810888,-97.5027719,1
+"Alice, Jim wells, TX",27.7522487,-98.0697249,2
+"Wolfforth, Lubbock, TX",33.5059189,-102.0090575,3
+"Clint, El paso, TX",31.592337,-106.2241449,0
+"Cotulla, La salle, TX",28.436934,-99.23503219999999,1
+"Pearsall, Frio, TX",28.8921939,-99.095033,2
+"Yoakum, Lavaca, TX",29.2877469,-97.15193099999999,3
+"San Antonio, Guadalupe, TX",29.5258561,-97.93487619999999,0
+"Fort Bliss, El paso, TX",31.812438,-106.4213208,1
+"Hidalgo, Hidalgo, TX",26.1003547,-98.2630684,2
+"Robstown, Nueces, TX",27.7903032,-97.6688843,3
+"Alamo, Hidalgo, TX",26.1836854,-98.1230638,0
+"Selma, Guadalupe, TX",29.5857242,-98.3027079,1
+"La Joya, Hidalgo, TX",26.2470165,-98.4814092,2
+"Tyler, Smith, TX",32.3512601,-95.30106239999999,3
+"Falfurrias, Brooks, TX",27.2269872,-98.1441714,0
+"Victoria, El paso, TX",31.73758479999999,-106.2508585,1
+"Hondo, Medina, TX",29.3474565,-99.14142489999999,2
+"Helotes, Bexar, TX",29.56959459999999,-98.7068269,3
+"Canyon Lake, Comal, TX",29.8752177,-98.2625127,0
+"Von Ormy, Bexar, TX",29.28898869999999,-98.64478489999999,1
+"Eagle Pass, Cameron, TX",28.7091433,-100.4995214,2
+"Rio Grande City, Starr, TX",26.3797874,-98.8203046,3
+"Aransas Pass, San patricio, TX",27.909532,-97.15055609999999,0
+"Leakey, Real, TX",29.7288351,-99.761448,1
+"Ingleside, San patricio, TX",27.8778026,-97.211657,2
+"George West, Live oak, TX",28.3325002,-98.1175054,3
+"San Juan, Hidalgo, TX",26.1892409,-98.15528719999999,0
+"Balcones Heights, Bexar, TX",29.4893005,-98.55060850000001,1
+"Pleasanton, Atascosa, TX",28.967194,-98.4786269,2
+"Live Oak, Bexar, TX",29.5652286,-98.33640249999999,3
+"Brownsville, Bexar, TX",25.9051239,-97.49334329999999,0
+"Fair Oaks, Kendall, TX",29.7555579,-98.63256109999999,1
+"Bulverde, Comal, TX",29.7438332,-98.4530729,2
+"Castroville, Medina, TX",29.3557903,-98.8786387,3
+"Bandera, Bandera, TX",29.7266131,-99.0736462,0
+"Hollywood Park, Bexar, TX",29.600988,-98.4837687,1
+"Sarita, Kenedy, TX",27.2217001,-97.7893059,2
+"Somerset, Bexar, TX",29.2263504,-98.6577985,3
+"La Vernia, Wilson, TX",29.356348,-98.11556329999999,0
+"Shavano Park, Bexar, TX",29.5847606,-98.55325119999999,1
+"Blanco, Blanco, TX",30.0979862,-98.4214095,2
+"Flatonia, Fayette, TX",29.6877325,-97.10859719999999,3
+"Olmos Park, Bexar, TX",29.4788422,-98.4875172,0
+"Bruni, Webb, TX",27.4261436,-98.8408551,1
+"Yancey, Medina, TX",29.1394071,-99.14503549999999,2
+"Three Rivers, Live oak, TX",28.4602717,-98.1825071,3
+"Copus Christi, Nueces, TX",27.8005828,-97.39638099999999,0
+"Luling, Caldwell, TX",29.68050659999999,-97.647498,1
+"Elmendorf, Bexar, TX",29.2560731,-98.3327903,2
+"Crystal City, Zavala, TX",28.6774795,-99.8281104,3
+"Sattler, Comal, TX",29.84799689999999,-98.17556599999999,0
+"San Anotonio, Bexar, TX",29.4241219,-98.49362819999999,1
+"Converse, Guadalupe, TX",29.5180081,-98.3161241,2
+"Rocksprings, Edwards, TX",30.0157647,-100.2053582,3
+"Alamo Heights, Bexar, TX",29.4849531,-98.46585019999999,0
+"Knippa, Uvalde, TX",29.2952364,-99.6372741,1

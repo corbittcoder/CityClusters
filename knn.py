@@ -4,7 +4,7 @@ import numpy as np
 import sys
 
 def knn(places, name):
-    colors = ['red', 'blue', 'green', 'yellow', 'purple'] #colors of groups
+    colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange'] #colors of groups
     prevPlaces = pd.DataFrame()
     places['Color'] = np.random.randint(0, len(colors), places.shape[0])
     while not places.equals(prevPlaces):
@@ -41,7 +41,7 @@ def knn(places, name):
 
 
     #plot data points on map
-    gmap = gmplot.GoogleMapPlotter.from_geocode(name + ", Texas", apikey='AIzaSyBBn9dsC8U-BP9PsYNqa6pjjbu6t9UstLw')
+    gmap = gmplot.GoogleMapPlotter.from_geocode(name + ", Florida", apikey='AIzaSyBBn9dsC8U-BP9PsYNqa6pjjbu6t9UstLw')
     for i in range(len(colors)):
         group = places[places.Color == i]
         gmap.scatter(group.Lat.tolist(), group.Lng.tolist(), color=colors[i])

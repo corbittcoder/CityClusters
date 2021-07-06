@@ -16,12 +16,14 @@ if __name__ == '__main__':
             area = sys.argv[2]
 
     df = pd.read_csv(r"C:\Users\scttc\PycharmProjects\CityClusters\files\\" + area + ".csv")
+    df = df.sort_values("City")
+    df = df.drop_duplicates(subset='City', keep='first')
     gmaps = googlemaps.Client(key=api)
     places = []#['Orange,Orange,TX', 30.0929879, -93.7365549, 'Red'],['Kountze,Hardin,TX', 30.3715975, -94.31241159999999, 'Blue']
     colors = ['Red', 'Blue', 'Purple', 'Green'] #colors of groups
     errors = []
     for index, row in df.iterrows():
-        name = row['City'] + ", " + row['County'] + ", " + row['State']
+        name = row['City'] + ", " + row['State']
         try:
             coordinates = gmaps.geocode(name)[0]['geometry']['location']
             places.append([name, coordinates['lat'], coordinates['lng'], index % len(colors)]) #assign colors randomly at start

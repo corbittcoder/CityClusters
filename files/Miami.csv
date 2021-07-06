@@ -1,0 +1,857 @@
+District,City,State,Zip,County
+Miami,Delray Beach,FL,33069,Broward
+Miami,Tamarac,FL,33321,Broward
+Miami,Tamarac,FL,33351,Broward
+Miami,Cape Haze,FL,33946,Charlotte
+Miami,Charlotte Harbor,FL,33980,Charlotte
+Miami,Placida,FL,33946,Charlotte
+Miami,Port Charlotte,FL,33952,Charlotte
+Miami,Port Charlotte,FL,33948,Charlotte
+Miami,Port Charlotte,FL,33980,Charlotte
+Miami,Port Charlotte,FL,33983,Charlotte
+Miami,Port Charlotte,FL,33954,Charlotte
+Miami,Port Charlotte,FL,33953,Charlotte
+Miami,Port Charlotte,FL,33981,Charlotte
+Miami,Pt Charlotte,FL,33953,Charlotte
+Miami,Pt Charlotte,FL,33952,Charlotte
+Miami,Punta Gorda,FL,33950,Charlotte
+Miami,Punta Gorda,FL,33955,Charlotte
+Miami,Punta Gorda,FL,33980,Charlotte
+Miami,Punta Gorda,FL,33951,Charlotte
+Miami,Punta Gorda,FL,33993,Charlotte
+Miami,Punta Gorda,FL,33982,Charlotte
+Miami,Punta Gorda,FL,33983,Charlotte
+Miami,Punta Gorda Isles,FL,33950,Charlotte
+Miami,Ave Maria,FL,34142,Collier
+Miami,Bonita Springs,FL,34134,Collier
+Miami,Estero,FL,33928,Collier
+Miami,Fort Myers,FL,33908,Collier
+Miami,Fort Myers,FL,33966,Collier
+Miami,Ft Myers,FL,33908,Collier
+Miami,Golden Gate,FL,34116,Collier
+Miami,Immokalee,FL,34142,Collier
+Miami,Marco Is,FL,34145,Collier
+Miami,Marco Isl,FL,34145,Collier
+Miami,Marco Island,FL,34145,Collier
+Miami,Marco Island,FL,33937,Collier
+Miami,Marco Island,FL,34135,Collier
+Miami,Marco Island,FL,34114,Collier
+Miami,Miromar Lakes,FL,33913,Collier
+Miami,Naples,FL,34102,Collier
+Miami,Naples,FL,34103,Collier
+Miami,Naples,FL,34113,Collier
+Miami,Naples,FL,33940,Collier
+Miami,Naples,FL,34108,Collier
+Miami,Naples,FL,34114,Collier
+Miami,Naples,FL,34112,Collier
+Miami,Naples,FL,34110,Collier
+Miami,Naples,FL,34105,Collier
+Miami,Naples,FL,34104,Collier
+Miami,Naples,FL,33942,Collier
+Miami,Naples,FL,34116,Collier
+Miami,Naples,FL,34119,Collier
+Miami,Naples,FL,33941,Collier
+Miami,Naples,FL,34109,Collier
+Miami,Naples,FL,34120,Collier
+Miami,Naples,FL,34117,Collier
+Miami,Naples,FL,34101,Collier
+Miami,Naples,FL,34107,Collier
+Miami,South Immokalee,FL,34142,Collier
+Miami,West Naples,FL,34120,Collier
+Miami,Stuart,FL,34994,Dade
+Miami,West Palm Beach,FL,33179,Dade
+Miami,Lake Suzy,FL,34269,DeSoto
+Miami,Clewiston,FL,33440,Hendry
+Miami,Labelle,FL,33935,Hendry
+Miami,Port Charlotte,FL,33948,Hillsborough
+Miami,Fort Pierce,FL,34949,Indian River
+Miami,Estero,FL,33928,Lake
+Miami,North Fort Myers,FL,33903,Lake
+Miami,Bonita Bch,FL,34134,Lee
+Miami,Bonita Beach,FL,34134,Lee
+Miami,Bonita Beach,FL,34135,Lee
+Miami,Bonita Spgs,FL,34134,Lee
+Miami,Bonita Spgs,FL,34135,Lee
+Miami,Bonita Springs,FL,34134,Lee
+Miami,Bonita Springs,FL,34133,Lee
+Miami,Bonita Springs,FL,34135,Lee
+Miami,Cape Coral,FL,33904,Lee
+Miami,Cape Coral,FL,33990,Lee
+Miami,Cape Coral,FL,33993,Lee
+Miami,Cape Coral,FL,33991,Lee
+Miami,Cape Coral,FL,33914,Lee
+Miami,Cape Coral,FL,33909,Lee
+Miami,Cape Coral,FL,33930,Lee
+Miami,Cape Coral,FL,33915,Lee
+Miami,E Fort Myers,FL,33905,Lee
+Miami,Estero,FL,33928,Lee
+Miami,Estero,FL,34135,Lee
+Miami,Fort Myers,FL,33901,Lee
+Miami,Fort Myers,FL,33919,Lee
+Miami,Fort Myers,FL,33903,Lee
+Miami,Fort Myers,FL,33908,Lee
+Miami,Fort Myers,FL,33907,Lee
+Miami,Fort Myers,FL,33911,Lee
+Miami,Fort Myers,FL,33931,Lee
+Miami,Fort Myers,FL,33916,Lee
+Miami,Fort Myers,FL,33912,Lee
+Miami,Fort Myers,FL,33904,Lee
+Miami,Fort Myers,FL,33932,Lee
+Miami,Fort Myers,FL,33906,Lee
+Miami,Fort Myers,FL,33905,Lee
+Miami,Fort Myers,FL,33913,Lee
+Miami,Fort Myers,FL,33965,Lee
+Miami,Fort Myers,FL,33966,Lee
+Miami,Fort Myers,FL,33967,Lee
+Miami,Fort Myers,FL,33902,Lee
+Miami,Fort Myers,FL,33971,Lee
+Miami,Fort Myers,FL,34135,Lee
+Miami,Fort Myers Bch,FL,33931,Lee
+Miami,Fort Myers Beach,FL,33931,Lee
+Miami,Fort Myers Beach,FL,33913,Lee
+Miami,Ft Myers,FL,33913,Lee
+Miami,Ft Myers,FL,33908,Lee
+Miami,Ft Myers,FL,33912,Lee
+Miami,Ft Myers Bch,FL,33931,Lee
+Miami,Ft Myers Bch,FL,33907,Lee
+Miami,Ft Myers Bch,FL,33908,Lee
+Miami,Ft Myers Beach,FL,33931,Lee
+Miami,Ft Myers St,FL,33901,Lee
+Miami,Ft Myres,FL,33908,Lee
+Miami,Lehigh Acres,FL,33972,Lee
+Miami,Lehigh Acres,FL,33936,Lee
+Miami,Lehigh Acres,FL,33971,Lee
+Miami,Lehigh Acres,FL,33974,Lee
+Miami,Miromar Lakes,FL,33913,Lee
+Miami,N Fort Myers,FL,33903,Lee
+Miami,N Ft Myers,FL,33903,Lee
+Miami,Naples,FL,34113,Lee
+Miami,North Fort Myers,FL,33903,Lee
+Miami,North Fort Myers,FL,33917,Lee
+Miami,North Ft Myers,FL,33903,Lee
+Miami,North Ft Myers,FL,33902,Lee
+Miami,Punta Gorda,FL,33955,Lee
+Miami,Sanibel,FL,33957,Lee
+Miami,Sanibel Isl,FL,33957,Lee
+Miami,Sanibel Island,FL,33957,Lee
+Miami,Hobe Sound,FL,33455,Martin
+Miami,Jensen Bch,FL,34957,Martin
+Miami,Jensen Beach,FL,34957,Martin
+Miami,Palm City,FL,34990,Martin
+Miami,Stuart,FL,34994,Martin
+Miami,Stuart,FL,34996,Martin
+Miami,Stuart,FL,34997,Martin
+Miami,Stuart,FL,34995,Martin
+Miami,Stuart,FL,34990,Martin
+Miami,Stuart-Hutchinson Is,FL,34996,Martin
+Miami,Wesley Chapel,FL,33455,Martin
+Miami,Big Coppitt Key,FL,33040,Monroe
+Miami,Big Pine Key,FL,33043,Monroe
+Miami,Duck Key,FL,33050,Monroe
+Miami,Islamorada,FL,33036,Monroe
+Miami,Key Largo,FL,33037,Monroe
+Miami,Key West,FL,33040,Monroe
+Miami,Marathon,FL,33050,Monroe
+Miami,Marathon Shores,FL,33050,Monroe
+Miami,Plantation Key,FL,33036,Monroe
+Miami,Stock Island,FL,33040,Monroe
+Miami,Tavernier,FL,33070,Monroe
+Miami,Upper Key Largo,FL,33037,Monroe
+Miami,Windley Key,FL,33036,Monroe
+Miami,Okeechobee,FL,34974,Okeechobee
+Miami,Okeechobee,FL,34972,Okeechobee
+Miami,Atlantis,FL,33462,Palm Beach
+Miami,Atlantis,FL,33461,Palm Beach
+Miami,Belle Glade,FL,33430,Palm Beach
+Miami,Boca Raton,FL,33431,Palm Beach
+Miami,Boca Raton,FL,33432,Palm Beach
+Miami,Boca Raton,FL,33486,Palm Beach
+Miami,Boca Raton,FL,33487,Palm Beach
+Miami,Boca Raton,FL,33434,Palm Beach
+Miami,Boca Raton,FL,33428,Palm Beach
+Miami,Boca Raton,FL,33496,Palm Beach
+Miami,Boca Raton,FL,33433,Palm Beach
+Miami,Boca Raton,FL,33429,Palm Beach
+Miami,Boca Raton,FL,33498,Palm Beach
+Miami,Boynton Bch,FL,33435,Palm Beach
+Miami,Boynton Bch,FL,33437,Palm Beach
+Miami,Boynton Bch,FL,33426,Palm Beach
+Miami,Boynton Beach,FL,33435,Palm Beach
+Miami,Boynton Beach,FL,33426,Palm Beach
+Miami,Boynton Beach,FL,33437,Palm Beach
+Miami,Boynton Beach,FL,33425,Palm Beach
+Miami,Boynton Beach,FL,33472,Palm Beach
+Miami,Boynton Beach,FL,33424,Palm Beach
+Miami,Del Ray Bch,FL,33483,Palm Beach
+Miami,Delary Bch,FL,33483,Palm Beach
+Miami,Delary Bch,FL,33444,Palm Beach
+Miami,Delray,FL,33484,Palm Beach
+Miami,Delray,FL,33445,Palm Beach
+Miami,Delray,FL,33444,Palm Beach
+Miami,Delray Bch,FL,33483,Palm Beach
+Miami,Delray Bch,FL,33444,Palm Beach
+Miami,Delray Bch,FL,33445,Palm Beach
+Miami,Delray Bch,FL,33484,Palm Beach
+Miami,Delray Bch,FL,33446,Palm Beach
+Miami,Delray Beach,FL,33483,Palm Beach
+Miami,Delray Beach,FL,33444,Palm Beach
+Miami,Delray Beach,FL,33446,Palm Beach
+Miami,Delray Beach,FL,33445,Palm Beach
+Miami,Delray Beach,FL,33484,Palm Beach
+Miami,Delray Beach,FL,33344,Palm Beach
+Miami,Delray Beach,FL,33410,Palm Beach
+Miami,Glen Ridge,FL,33406,Palm Beach
+Miami,Green Acres,FL,33463,Palm Beach
+Miami,Green Acres,FL,33467,Palm Beach
+Miami,Green Acres,FL,33413,Palm Beach
+Miami,Green Acres City,FL,33463,Palm Beach
+Miami,Greenacres,FL,33413,Palm Beach
+Miami,Greenacres,FL,33463,Palm Beach
+Miami,Gulf Stream,FL,33483,Palm Beach
+Miami,Gulfstream,FL,33483,Palm Beach
+Miami,Haverhill,FL,33415,Palm Beach
+Miami,Highland Bch,FL,33487,Palm Beach
+Miami,Highland Beach,FL,33487,Palm Beach
+Miami,Hobe Sound,FL,33445,Palm Beach
+Miami,Hypoluxo,FL,33462,Palm Beach
+Miami,Juno Bch,FL,33408,Palm Beach
+Miami,Juno Bch,FL,33477,Palm Beach
+Miami,Juno Beach,FL,33408,Palm Beach
+Miami,Jupiter,FL,33478,Palm Beach
+Miami,Jupiter,FL,33477,Palm Beach
+Miami,Jupiter,FL,33458,Palm Beach
+Miami,Jupiter,FL,33469,Palm Beach
+Miami,Jupiter Island,FL,33469,Palm Beach
+Miami,Lake Clarke Shores,FL,33406,Palm Beach
+Miami,Lake Park,FL,33403,Palm Beach
+Miami,Lake Worth,FL,33460,Palm Beach
+Miami,Lake Worth,FL,33461,Palm Beach
+Miami,Lake Worth,FL,33462,Palm Beach
+Miami,Lake Worth,FL,33463,Palm Beach
+Miami,Lake Worth,FL,33467,Palm Beach
+Miami,Lake Worth,FL,33449,Palm Beach
+Miami,Lake Worth,FL,33411,Palm Beach
+Miami,Lakes Of Delray,FL,33484,Palm Beach
+Miami,Lantana,FL,33462,Palm Beach
+Miami,Loxahatchee,FL,33470,Palm Beach
+Miami,Manalapan,FL,33462,Palm Beach
+Miami,Mangonia Park,FL,33407,Palm Beach
+Miami,N Palm Bch,FL,33408,Palm Beach
+Miami,N Palm Bch,FL,33403,Palm Beach
+Miami,North Palm Bch,FL,33408,Palm Beach
+Miami,North Palm Bch,FL,33403,Palm Beach
+Miami,North Palm Beach,FL,33408,Palm Beach
+Miami,North Palm Beach,FL,33403,Palm Beach
+Miami,Ocean Ridge,FL,33435,Palm Beach
+Miami,Pahokee,FL,33476,Palm Beach
+Miami,Palm Beach,FL,33480,Palm Beach
+Miami,Palm Beach,FL,33418,Palm Beach
+Miami,Palm Beach,FL,33404,Palm Beach
+Miami,Palm Beach,FL,33401,Palm Beach
+Miami,Palm Beach,FL,33431,Palm Beach
+Miami,Palm Beach Gardens,FL,33410,Palm Beach
+Miami,Palm Beach Gardens,FL,33418,Palm Beach
+Miami,Palm Beach Gardens,FL,33408,Palm Beach
+Miami,Palm Beach Gardens,FL,33403,Palm Beach
+Miami,Palm Beach Gardens,FL,33480,Palm Beach
+Miami,Palm Beach Gdns,FL,33410,Palm Beach
+Miami,Palm Beach Shores,FL,33404,Palm Beach
+Miami,Palm Spgs,FL,33461,Palm Beach
+Miami,Palm Springs,FL,33461,Palm Beach
+Miami,Palm Springs,FL,33406,Palm Beach
+Miami,Riviera Bch,FL,33404,Palm Beach
+Miami,Riviera Bch,FL,33407,Palm Beach
+Miami,Riviera Beach,FL,33404,Palm Beach
+Miami,Riviera Beach,FL,33407,Palm Beach
+Miami,Riviera Beach,FL,33418,Palm Beach
+Miami,Riviera Beach,FL,33410,Palm Beach
+Miami,Riviera Beach,FL,33411,Palm Beach
+Miami,Royal Palm Bch,FL,33411,Palm Beach
+Miami,Royal Palm Beach,FL,33411,Palm Beach
+Miami,Royal Palm Beach,FL,33414,Palm Beach
+Miami,Royal Palm Beach,FL,33412,Palm Beach
+Miami,Royal Palm Beach,FL,33441,Palm Beach
+Miami,Royal Plm Beach,FL,33411,Palm Beach
+Miami,S Palm Bch,FL,33480,Palm Beach
+Miami,Singer Isl,FL,33404,Palm Beach
+Miami,Singer Island,FL,33404,Palm Beach
+Miami,Singer Island Rivier,FL,33404,Palm Beach
+Miami,South Palm Bch,FL,33480,Palm Beach
+Miami,South Palm Beach,FL,33480,Palm Beach
+Miami,Tequesta,FL,33469,Palm Beach
+Miami,W Palm Beach,FL,33407,Palm Beach
+Miami,W Palm Beach,FL,33412,Palm Beach
+Miami,Wellington,FL,33414,Palm Beach
+Miami,Wellington,FL,33411,Palm Beach
+Miami,Wellington,FL,33467,Palm Beach
+Miami,Wellington,FL,33470,Palm Beach
+Miami,West Palm Bch,FL,33417,Palm Beach
+Miami,West Palm Bch,FL,33401,Palm Beach
+Miami,West Palm Bch,FL,33414,Palm Beach
+Miami,West Palm Beach,FL,33401,Palm Beach
+Miami,West Palm Beach,FL,33407,Palm Beach
+Miami,West Palm Beach,FL,33402,Palm Beach
+Miami,West Palm Beach,FL,33405,Palm Beach
+Miami,West Palm Beach,FL,33480,Palm Beach
+Miami,West Palm Beach,FL,33417,Palm Beach
+Miami,West Palm Beach,FL,33409,Palm Beach
+Miami,West Palm Beach,FL,33406,Palm Beach
+Miami,West Palm Beach,FL,33414,Palm Beach
+Miami,West Palm Beach,FL,33415,Palm Beach
+Miami,West Palm Beach,FL,33411,Palm Beach
+Miami,West Palm Beach,FL,33413,Palm Beach
+Miami,West Palm Beach,FL,33408,Palm Beach
+Miami,West Palm Beach,FL,33412,Palm Beach
+Miami,West Palm Beach,FL,33410,Palm Beach
+Miami,West Palm Beach,FL,33418,Palm Beach
+Miami,West Palm Beach,FL,33404,Palm Beach
+Miami,West Palm Beach,FL,33462,Palm Beach
+Miami,West Palm Beach,FL,33400,Palm Beach
+Miami,Lakeland,FL,33802,Polk
+Miami,North Port,FL,34288,Sarasota
+Miami,Fort Pierce,FL,34950,St. Lucie
+Miami,Fort Pierce,FL,34949,St. Lucie
+Miami,Fort Pierce,FL,34982,St. Lucie
+Miami,Fort Pierce,FL,34947,St. Lucie
+Miami,Fort Pierce,FL,34981,St. Lucie
+Miami,Fort Pierce,FL,34946,St. Lucie
+Miami,Fort Pierce,FL,34954,St. Lucie
+Miami,Fort Pierce,FL,34948,St. Lucie
+Miami,Ft Pierce,FL,34950,St. Lucie
+Miami,Ft Pierce,FL,34949,St. Lucie
+Miami,Ft Pierce,FL,34982,St. Lucie
+Miami,Ft Pierce,FL,33946,St. Lucie
+Miami,Ft Pierce,FL,34954,St. Lucie
+Miami,Ft. Pierce,FL,34986,St. Lucie
+Miami,Ft. Pierce,FL,34950,St. Lucie
+Miami,Jensen Bch,FL,34957,St. Lucie
+Miami,Jensen Beach,FL,34957,St. Lucie
+Miami,N Hutchinson Island,FL,34949,St. Lucie
+Miami,Port Saint Lucie,FL,34952,St. Lucie
+Miami,Port Saint Lucie,FL,34986,St. Lucie
+Miami,Port Saint Lucie,FL,34984,St. Lucie
+Miami,Port Saint Lucie,FL,34953,St. Lucie
+Miami,Port Saint Lucie,FL,34927,St. Lucie
+Miami,Port St Lucie,FL,34952,St. Lucie
+Miami,Port St Lucie,FL,34984,St. Lucie
+Miami,Port St Lucie,FL,34986,St. Lucie
+Miami,Port St Lucie,FL,34983,St. Lucie
+Miami,Port St Lucie,FL,34990,St. Lucie
+Miami,Port St Lucie,FL,34987,St. Lucie
+Miami,Port St Luice,FL,34952,St. Lucie
+Miami,Port St. Lucie,FL,34983,St. Lucie
+Miami,Port St. Lucie,FL,34986,St. Lucie
+Miami,Pt St Lucie,FL,34986,St. Lucie
+Miami,Saint Lucie,FL,34952,St. Lucie
+Miami,St Lucie West,FL,34986,St. Lucie
+Miami,Aventura,FL,33180,
+Miami,Aventura,FL,33160,
+Miami,Aventura,FL,33181,
+Miami,Aventura,FL,Unknown,
+Miami,Aventura,FL,33179,
+Miami,Aventura,FL,33145,
+Miami,Bal Harbor,FL,33154,
+Miami,Bal Harbour,FL,33154,
+Miami,Bay Harbor,FL,33154,
+Miami,Bay Harbor,FL,Unknown,
+Miami,Bay Harbor Island,FL,33154,
+Miami,Bay Harbor Islands,FL,33154,
+Miami,"Bay Harbor
+Island",FL,33154,
+Miami,"Bay Harbor
+Island",FL,Unknown,
+Miami,"Bay Harbor
+Island",FL,33014,
+Miami,"Bay Harbor
+Islands",FL,33154,
+Miami,"Bay Harbor
+Islands",FL,Unknown,
+Miami,"Bay Harbour
+Island",FL,33154,
+Miami,"Bay Harbour
+Islands",FL,33154,
+Miami,Carol City,FL,33055,
+Miami,Coconut Creek,FL,33073,
+Miami,Coconut Creek,FL,33066,
+Miami,Coconut Creek,FL,Unknown,
+Miami,Coconut Creek,FL,33063,
+Miami,Coconut Creek,FL,33067,
+Miami,Cooper City,FL,33330,
+Miami,Cooper City,FL,33024,
+Miami,Cooper City,FL,33026,
+Miami,Cooper City,FL,33328,
+Miami,Coral,FL,33134,
+Miami,Coral,FL,33143,
+Miami,Coral,FL,33146,
+Miami,Coral,FL,33133,
+Miami,Coral,FL,33144,
+Miami,Coral,FL,33154,
+Miami,"Coral Gab
+Les",FL,33134,
+Miami,Coral Gables,FL,33134,
+Miami,Coral Gables,FL,33146,
+Miami,Coral Springs,FL,33065,
+Miami,Coral Springs,FL,33076,
+Miami,Coral Springs,FL,33067,
+Miami,Coral Springs,FL,33071,
+Miami,Coral Springs,FL,33315,
+Miami,Coral Springs,FL,Unknown,
+Miami,"Coral
+Gables",FL,33146,
+Miami,"Coral
+Gables",FL,33134,
+Miami,"Coral
+Gables",FL,33143,
+Miami,"Coral
+Gables",FL,33133,
+Miami,"Coral
+Gables",FL,Unknown,
+Miami,"Coral
+Gables",FL,33434,
+Miami,"Coral
+Gables",FL,33156,
+Miami,"Coral
+Gables",FL,33158,
+Miami,Cutler Bay,FL,33189,
+Miami,Cutler Bay,FL,33157,
+Miami,Cutler Bay,FL,33190,
+Miami,Dania,FL,33004,
+Miami,Dania,FL,33314,
+Miami,Dania,FL,33312,
+Miami,Davie,FL,33330,
+Miami,Davie,FL,33328,
+Miami,Davie,FL,33314,
+Miami,Davie,FL,33331,
+Miami,Davie,FL,33317,
+Miami,Davie,FL,33324,
+Miami,Davie,FL,33325,
+Miami,Davie,FL,33320,
+Miami,Davie,FL,33024,
+Miami,Davie,FL,Unknown,
+Miami,Deerfield Beach,FL,Unknown,
+Miami,Deerfield Beach,FL,33441,
+Miami,Deerfield Beach,FL,33442,
+Miami,Deerfield Beach,FL,33064,
+Miami,Deering Bay,FL,Unknown,
+Miami,Doral,FL,33178,
+Miami,Doral,FL,33173,
+Miami,Doral,FL,33172,
+Miami,Doral,FL,33182,
+Miami,Doral,FL,33126,
+Miami,Doral,FL,33166,
+Miami,Doral,FL,33122,
+Miami,Doral,FL,Unknown,
+Miami,Doral,FL,33143,
+Miami,Doral,FL,33164,
+Miami,Doral,FL,33442,
+Miami,Doral,FL,33129,
+Miami,Doral,FL,33179,
+Miami,Fisher Island,FL,33109,
+Miami,"Fisher
+Island",FL,33109,
+Miami,Florida City,FL,33035,
+Miami,Florida City,FL,33034,
+Miami,Florida City,FL,33030,
+Miami,Fort Lauderdale,FL,33301,
+Miami,Fort Lauderdale,FL,33316,
+Miami,Fort Lauderdale,FL,33315,
+Miami,Fort Lauderdale,FL,33308,
+Miami,Fort Lauderdale,FL,Unknown,
+Miami,Fort Lauderdale,FL,33312,
+Miami,Fort Lauderdale,FL,33309,
+Miami,Fort Lauderdale,FL,33311,
+Miami,Fort Lauderdale,FL,33304,
+Miami,Fort Lauderdale,FL,33306,
+Miami,Fort Lauderdale,FL,33394,
+Miami,Fort Lauderdale,FL,33317,
+Miami,Fort Lauderdale,FL,33334,
+Miami,Fort Lauderdale,FL,33305,
+Miami,Fort Lauderdale,FL,33332,
+Miami,Fort Lauderdale,FL,33319,
+Miami,Fort Lauderdale,FL,33314,
+Miami,Fort Lauderdale,FL,33133,
+Miami,Hallandale,FL,33009,
+Miami,Hallandale,FL,Unknown,
+Miami,Hial;Eah,FL,Unknown,
+Miami,Hialeah,FL,33012,
+Miami,Hialeah,FL,33014,
+Miami,Hialeah,FL,33016,
+Miami,Hialeah,FL,33015,
+Miami,Hialeah,FL,Unknown,
+Miami,Hialeah,FL,33010,
+Miami,Hialeah,FL,33013,
+Miami,Hialeah,FL,33166,
+Miami,Hialeah,FL,33011,
+Miami,Hialeah,FL,33018,
+Miami,Hialeah,FL,33000,
+Miami,Hialeah,FL,33147,
+Miami,Hialeah,FL,33122,
+Miami,Hialeah,FL,33143,
+Miami,Hialeah Gardens,FL,33016,
+Miami,"Hialeah
+Gardens",FL,33018,
+Miami,"Hialeah
+Gardens",FL,33016,
+Miami,Hieleah,FL,33012,
+Miami,Hillsboro Beach,FL,33062,
+Miami,Hillsboro Beach,FL,Unknown,
+Miami,Hollywood,FL,33020,
+Miami,Hollywood,FL,33312,
+Miami,Hollywood,FL,33019,
+Miami,Hollywood,FL,33022,
+Miami,Hollywood,FL,33021,
+Miami,Hollywood,FL,33024,
+Miami,Hollywood,FL,33023,
+Miami,Hollywood,FL,Unknown,
+Miami,Hollywood,FL,33333,
+Miami,Hollywood,FL,33316,
+Miami,Hollywood,FL,33067,
+Miami,Hollywood,FL,33314,
+Miami,Homestead,FL,33032,
+Miami,Homestead,FL,33033,
+Miami,Homestead,FL,33031,
+Miami,Homestead,FL,33030,
+Miami,Homestead,FL,33034,
+Miami,Homestead,FL,33035,
+Miami,Homestead,FL,Unknown,
+Miami,Homestead,FL,33036,
+Miami,"Indian Creek
+Village",FL,33154,
+Miami,Kendall,FL,33176,
+Miami,Kendall,FL,33196,
+Miami,Key Biscayne,FL,33149,
+Miami,Key Biscayne,FL,33139,
+Miami,Key Biscayne,FL,Unknown,
+Miami,Lauderdale By The Sea,FL,Unknown,
+Miami,Lauderdale La,FL,Unknown,
+Miami,Lauderdale Lakes,FL,Unknown,
+Miami,Lauderdale Lakes,FL,33311,
+Miami,Lauderdale Lakes,FL,33309,
+Miami,Lauderdale Lakes,FL,33313,
+Miami,Lauderdale Lakes,FL,33319,
+Miami,Lauderhill,FL,33319,
+Miami,Lauderhill,FL,33311,
+Miami,Lauderhill,FL,33313,
+Miami,Lauderhill,FL,Unknown,
+Miami,Lauderhill,FL,33309,
+Miami,Lauderhill,FL,33351,
+Miami,Leisure City,FL,33033,
+Miami,Lighthouse Point,FL,33064,
+Miami,Lighthouse Point,FL,Unknown,
+Miami,Maimi,FL,33176,
+Miami,Maimi,FL,Unknown,
+Miami,Maimi,FL,33165,
+Miami,Margate,FL,33063,
+Miami,Margate,FL,Unknown,
+Miami,Margate,FL,33065,
+Miami,Medley,FL,33178,
+Miami,Medley,FL,33166,
+Miami,Medley,FL,33176,
+Miami,Miami,FL,33142,
+Miami,Miami,FL,33172,
+Miami,Miami,FL,33186,
+Miami,Miami,FL,33196,
+Miami,Miami,FL,33432,
+Miami,Miami,FL,33126,
+Miami,Miami,FL,63473,
+Miami,Miami,FL,33156,
+Miami,Miami,FL,33132,
+Miami,Miami,FL,33176,
+Miami,Miami,FL,33157,
+Miami,Miami,FL,Unknown,
+Miami,Miami,FL,33169,
+Miami,Miami,FL,33144,
+Miami,Miami,FL,33175,
+Miami,Miami,FL,33015,
+Miami,Miami,FL,33166,
+Miami,Miami,FL,33179,
+Miami,Miami,FL,33159,
+Miami,Miami,FL,33181,
+Miami,Miami,FL,33161,
+Miami,Miami,FL,33138,
+Miami,Miami,FL,33174,
+Miami,Miami,FL,33173,
+Miami,Miami,FL,33167,
+Miami,Miami,FL,33143,
+Miami,Miami,FL,33130,
+Miami,Miami,FL,33150,
+Miami,Miami,FL,33165,
+Miami,Miami,FL,33134,
+Miami,Miami,FL,33183,
+Miami,Miami,FL,33125,
+Miami,Miami,FL,33162,
+Miami,Miami,FL,33056,
+Miami,Miami,FL,33147,
+Miami,Miami,FL,33136,
+Miami,Miami,FL,33155,
+Miami,Miami,FL,33139,
+Miami,Miami,FL,33135,
+Miami,Miami,FL,33122,
+Miami,Miami,FL,33193,
+Miami,Miami,FL,33129,
+Miami,Miami,FL,33189,
+Miami,Miami,FL,33178,
+Miami,Miami,FL,33177,
+Miami,Miami,FL,33184,
+Miami,Miami,FL,33032,
+Miami,Miami,FL,31803,
+Miami,Miami,FL,33180,
+Miami,Miami,FL,33141,
+Miami,Miami,FL,33199,
+Miami,Miami,FL,33014,
+Miami,Miami,FL,33160,
+Miami,Miami,FL,33140,
+Miami,Miami,FL,33127,
+Miami,Miami,FL,33145,
+Miami,Miami,FL,33128,
+Miami,Miami,FL,33105,
+Miami,Miami,FL,33133,
+Miami,Miami,FL,33090,
+Miami,Miami,FL,33106,
+Miami,Miami,FL,33151,
+Miami,Miami,FL,33168,
+Miami,Miami,FL,33054,
+Miami,Miami,FL,331`5,
+Miami,Miami,FL,33152,
+Miami,Miami,FL,33314,
+Miami,Miami,FL,33055,
+Miami,Miami,FL,33061,
+Miami,Miami,FL,33146,
+Miami,Miami,FL,33158,
+Miami,Miami,FL,33190,
+Miami,Miami,FL,33185,
+Miami,Miami,FL,33131,
+Miami,Miami,FL,33010,
+Miami,Miami,FL,33187,
+Miami,Miami,FL,33117,
+Miami,Miami,FL,33030,
+Miami,Miami,FL,33031,
+Miami,Miami,FL,33018,
+Miami,Miami,FL,33000,
+Miami,Miami,FL,33182,
+Miami,Miami,FL,33137,
+Miami,Miami,FL,33016,
+Miami,Miami,FL,33170,
+Miami,Miami Beach,FL,33160,
+Miami,Miami Beach,FL,Unknown,
+Miami,Miami Beach,FL,33109,
+Miami,Miami Beach,FL,33154,
+Miami,Miami Gardens,FL,33169,
+Miami,Miami Gardens,FL,33054,
+Miami,Miami Lakes,FL,33016,
+Miami,Miami Lakes,FL,33014,
+Miami,Miami Lakes,FL,33015,
+Miami,Miami Lakes,FL,Unknown,
+Miami,Miami Lakes,FL,33169,
+Miami,Miami Lakes,FL,33178,
+Miami,Miami Lakes,FL,33331,
+Miami,Miami Lakes,FL,33172,
+Miami,Miami Shores,FL,33138,
+Miami,Miami Shores,FL,33168,
+Miami,Miami Springs,FL,Unknown,
+Miami,Miami Springs,FL,33166,
+Miami,Miami Springs,FL,33142,
+Miami,"Miami
+Gardens",FL,33055,
+Miami,"Miami
+Gardens",FL,33169,
+Miami,"Miami
+Gardens",FL,33056,
+Miami,"Miami
+Gardens",FL,33054,
+Miami,"Miami
+Gardens",FL,33014,
+Miami,"Miami
+Gardens",FL,33015,
+Miami,"Miami
+Shores",FL,33138,
+Miami,"Miami
+Shores",FL,Unknown,
+Miami,"Miami
+Shores",FL,33161,
+Miami,"Miami
+Shores",FL,33181,
+Miami,"Miami
+Springs",FL,33166,
+Miami,"Miami
+Springs",FL,33146,
+Miami,"Miami
+Springs",FL,33010,
+Miami,"Miami
+Springs",FL,Unknown,
+Miami,"Miami
+Springs",FL,33186,
+Miami,Miami`,FL,33142,
+Miami,Miami-Dade,FL,33183,
+Miami,Miramar,FL,33027,
+Miami,Miramar,FL,33025,
+Miami,Miramar,FL,33023,
+Miami,Miramar,FL,33026,
+Miami,Miramar,FL,33029,
+Miami,Miramar,FL,33333,
+Miami,Miramar,FL,Unknown,
+Miami,Miramar,FL,33028,
+Miami,"N Miami
+Beach",FL,33162,
+Miami,Naranja,FL,33032,
+Miami,North Bay,FL,33141,
+Miami,North Bay Village,FL,33141,
+Miami,"North Bay
+Village",FL,Unknown,
+Miami,"North Bay
+Village",FL,33141,
+Miami,"North Bay
+Village",FL,33140,
+Miami,"North Bay
+Village",FL,33161,
+Miami,"North Bay
+Village",FL,33142,
+Miami,North Lauderdale,FL,33068,
+Miami,North Lauderdale,FL,Unknown,
+Miami,North Lauderdale,FL,33308,
+Miami,North Mami,FL,33160,
+Miami,North Miami,FL,33168,
+Miami,North Miami,FL,33179,
+Miami,North Miami,FL,33161,
+Miami,North Miami,FL,33169,
+Miami,North Miami,FL,33181,
+Miami,North Miami,FL,33160,
+Miami,North Miami,FL,33162,
+Miami,North Miami,FL,Unknown,
+Miami,North Miami,FL,33180,
+Miami,North Miami,FL,33150,
+Miami,North Miami,FL,33167,
+Miami,North Miami Beach,FL,33179,
+Miami,North Miami Beach,FL,33160,
+Miami,North Miami Beach,FL,33162,
+Miami,North Miami Beach,FL,33180,
+Miami,North Miami Beach,FL,33181,
+Miami,North Miami Beach,FL,33169,
+Miami,"North Miami
+Beach",FL,33162,
+Miami,"North Miami
+Beach",FL,33179,
+Miami,"North Miami
+Beach",FL,Unknown,
+Miami,"North Miami
+Beach",FL,33169,
+Miami,"North Miami
+Beach",FL,33180,
+Miami,"North Miami
+Beach",FL,33160,
+Miami,"North Miami
+Beach",FL,33181,
+Miami,"North Miami
+Beach",FL,33161,
+Miami,North Miamii,FL,33161,
+Miami,Oakland Park,FL,33334,
+Miami,Oakland Park,FL,Unknown,
+Miami,Oakland Park,FL,33308,
+Miami,Oakland Park,FL,33311,
+Miami,Oakland Park,FL,33309,
+Miami,Opa Locka,FL,33054,
+Miami,Opa Locka,FL,33167,
+Miami,Opa Locka,FL,33055,
+Miami,Opa Locka,FL,33056,
+Miami,Opalocka,FL,33054,
+Miami,Opa-Locka,FL,33056,
+Miami,Palmetto Bay,FL,33157,
+Miami,Palmetto Bay,FL,33176,
+Miami,Palmetto Bay,FL,33158,
+Miami,Palmetto Bay,FL,33187,
+Miami,Parkland,FL,33076,
+Miami,Parkland,FL,33067,
+Miami,Parkland,FL,33073,
+Miami,Pembroke Park,FL,33009,
+Miami,Pembroke Park,FL,Unknown,
+Miami,Pembroke Park,FL,33023,
+Miami,Pembroke Pines,FL,33028,
+Miami,Pembroke Pines,FL,33029,
+Miami,Pembroke Pines,FL,33026,
+Miami,Pembroke Pines,FL,33027,
+Miami,Pembroke Pines,FL,33331,
+Miami,Pembroke Pines,FL,33024,
+Miami,Pembroke Pines,FL,33332,
+Miami,Pembroke Pines,FL,Unknown,
+Miami,Pembroke Pines,FL,33025,
+Miami,Pembroke Pines,FL,33330,
+Miami,Pembroke Pines,FL,33056,
+Miami,Perrine,FL,33157,
+Miami,Pinecrest,FL,33143,
+Miami,Pinecrest,FL,33156,
+Miami,Plantation,FL,33313,
+Miami,Plantation,FL,33318,
+Miami,Plantation,FL,33324,
+Miami,Plantation,FL,Unknown,
+Miami,Plantation,FL,33317,
+Miami,Plantation,FL,33322,
+Miami,Plantation,FL,33325,
+Miami,Plantation,FL,33388,
+Miami,Pompano Beach,FL,33062,
+Miami,Pompano Beach,FL,33069,
+Miami,Pompano Beach,FL,Unknown,
+Miami,Pompano Beach,FL,33068,
+Miami,Pompano Beach,FL,33064,
+Miami,Pompano Beach,FL,33060,
+Miami,Pompano Beach,FL,33065,
+Miami,Pompano Beach,FL,33073,
+Miami,Princeton,FL,33032,
+Miami,"Richmond
+Heights",FL,33176,
+Miami,Shores,FL,33138,
+Miami,South Miami,FL,33143,
+Miami,South Miami,FL,Unknown,
+Miami,South Miami,FL,33123,
+Miami,Southwest Ranches,FL,Unknown,
+Miami,Southwest Ranches,FL,33331,
+Miami,Southwest Ranches,FL,33332,
+Miami,Space H-1,FL,33025,
+Miami,Sunny Isles,FL,33160,
+Miami,Sunny Isles,FL,33060,
+Miami,Sunny Isles Beach,FL,33160,
+Miami,"Sunny Isles
+Beach",FL,33160,
+Miami,"Sunny Isles
+Beach",FL,33060,
+Miami,"Sunny Isles
+Beach",FL,33181,
+Miami,Sunrise,FL,Unknown,
+Miami,Sunrise,FL,33323,
+Miami,Sunrise,FL,33351,
+Miami,Sunrise,FL,33313,
+Miami,Sunrise,FL,33322,
+Miami,Sunrise,FL,33328,
+Miami,Sunrise,FL,33326,
+Miami,Sunrise,FL,33325,
+Miami,Sunrise,FL,33324,
+Miami,Surfside,FL,33154,
+Miami,Surfside,FL,Unknown,
+Miami,Sweetwater,FL,Unknown,
+Miami,Sweetwater,FL,33174,
+Miami,Sweetwater,FL,33172,
+Miami,Tamarac,FL,33321,
+Miami,Tamarac,FL,33319,
+Miami,Tamarac,FL,33351,
+Miami,Tamarac,FL,Unknown,
+Miami,Village Of,FL,33157,
+Miami,"Village Of
+Palmetto Bay",FL,33157,
+Miami,"Village Of
+Palmetto Bay",FL,33176,
+Miami,Virginia,FL,33166,
+Miami,"Virginia
+Gardens",FL,33166,
+Miami,"Vlg Of
+Palmetto Bay",FL,33157,
+Miami,West Miami,FL,33144,
+Miami,West Miami,FL,Unknown,
+Miami,West Park,FL,Unknown,
+Miami,Weston,FL,33331,
+Miami,Weston,FL,33327,
+Miami,Weston,FL,33326,
+Miami,Weston,FL,33332,
+Miami,Weston,FL,Unknown,
+Miami,Wilton Manors,FL,33305,
+Miami,Wilton Manors,FL,33334,
+Miami,Wilton Manors,FL,Unknown,
+Miami,Wilton Manors,FL,33311,

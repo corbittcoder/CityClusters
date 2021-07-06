@@ -5,12 +5,12 @@ import sys
 
 def plot(places, name):
     #plot data points on map
-    colors = ['red', 'blue', 'green', 'yellow', 'purple', 'brown'] #colors of groups
-    gmap = gmplot.GoogleMapPlotter.from_geocode(name + ", Texas", apikey='AIzaSyBBn9dsC8U-BP9PsYNqa6pjjbu6t9UstLw')
+    colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange'] #colors of groups
+    gmap = gmplot.GoogleMapPlotter.from_geocode(name + ", Florida", apikey='AIzaSyBBn9dsC8U-BP9PsYNqa6pjjbu6t9UstLw')
     for i in range(len(colors)):
         group = places[places.Color == i]
         gmap.scatter(group.Lat.tolist(), group.Lng.tolist(), color=colors[i])
-    gmap.draw(".\\files\\" + name + "_map.html")
+    gmap.draw(r"C:\Users\scttc\PycharmProjects\CityClusters\\" + name + "_map.html")
 
 if __name__ == '__main__':
     name = ""

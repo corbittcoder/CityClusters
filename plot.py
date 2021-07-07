@@ -6,7 +6,7 @@ import sys
 def plot(places, name):
     #plot data points on map
     colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange'] #colors of groups
-    gmap = gmplot.GoogleMapPlotter.from_geocode(name + ", Florida", apikey='AIzaSyBBn9dsC8U-BP9PsYNqa6pjjbu6t9UstLw')
+    gmap = gmplot.GoogleMapPlotter.from_geocode(name + ", Florida", apikey='')
     for i in range(len(colors)):
         group = places[places.Color == i]
         gmap.scatter(group.Lat.tolist(), group.Lng.tolist(), color=colors[i])

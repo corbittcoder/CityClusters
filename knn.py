@@ -2,16 +2,21 @@ import pandas as pd
 import gmplot
 import numpy as np
 import sys
+import colorsys
 
-def knn(places, name):
-    colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'brown'] #colors of groups
+import plot
+
+
+def knn(places, name, numGroups, api):
+    # colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'brown'] #colors of groups
+    # colors = colors[0, numGroups]
     prevPlaces = pd.DataFrame()
-    places['Color'] = np.random.randint(0, len(colors), places.shape[0])
+    places['Color'] = np.random.randint(0, numGroups, places.shape[0])
     while not places.equals(prevPlaces):
         prevPlaces = places.copy()
         #determine distance from each cluster
         for index, row in places.iterrows():
-            distances = np.zeros(len(colors))
+            distances = np.zeros(numGroups)
             mindex = 0 #index of minimum distance
             for i in range(len(distances)):
                 #get all points of that color
@@ -30,7 +35,7 @@ def knn(places, name):
 
     #Name clusters
     # names = []
-    # for i in range(len(colors)):
+    # for i in range(numGroups):
     #     cluster = places[places.Color == i]
     #     averageLocation = [cluster['Lat'].mean(), cluster['Lng'].mean()]
     #     cluster.Lat -= averageLocation[0]
@@ -41,20 +46,22 @@ def knn(places, name):
 
 
     #plot data points on map
-    gmap = gmplot.GoogleMapPlotter.from_geocode(name + ", Florida", apikey='')
-    for i in range(len(colors)):
-        group = places[places.Color == i]
-        gmap.scatter(group.Lat.tolist(), group.Lng.tolist(), color=colors[i])
-    gmap.draw(r"C:\Users\scttc\PycharmProjects\CityClusters\\" + name + "_map.html")
-    places.to_csv('files\\' + name + '_results.csv', index=False)
+    plot.plot(places, name, numGroups, api)
 
 if __name__ == '__main__':
-    name = ""
-    if len(sys.argv) != 2:
-            print('Usage: knn.py <CITY NAME>')
-            exit(1)
+    api = ''
+    name = ''
+    numGroups = 0
+    if len(sys.argv) != 4:
+        print('Usage: knn.py <GOOGLE API KEY> <CITY NAME> <NUM GROUPS>')
+        exit(1)
     else:
-            name = sys.argv[1]
+        api = sys.argv[1]
+        name = sys.argv[2]
+        try:
+            numGroups = int(sys.argv[3])
+        except:
+            print('Usage: knn.py <GOOGLE API KEY> <CITY NAME> <NUM GROUPS>')
     places = pd.read_csv(r"C:\Users\scttc\PycharmProjects\CityClusters\files\\" + name + "_values.csv")
-    knn(places, name)
+    knn(places, name, numGroups, api)
 

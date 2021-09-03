@@ -1,5 +1,4 @@
 import sys
-import gmplot
 import googlemaps
 import knn
 
@@ -8,14 +7,19 @@ import pandas as pd
 if __name__ == '__main__':
     api = ""
     area = ""
-    if len(sys.argv) != 3:
-            print('Usage: cluster.py <GOOGLE DISTANCE MATRIX API KEY> <CITY NAME>')
-            exit(1)
+    numGroups = 0
+    if len(sys.argv) != 4:
+        print('Usage: cluster.py <GOOGLE DISTANCE MATRIX API KEY> <CITY NAME> <NUM GROUPS>')
+        exit(1)
     else:
-            api = sys.argv[1]
-            area = sys.argv[2]
+        api = sys.argv[1]
+        area = sys.argv[2]
+        try:
+            numGroups = int(sys.argv[3])
+        except:
+            print('Usage: cluster.py <GOOGLE DISTANCE MATRIX API KEY> <CITY NAME> <NUM GROUPS>')
 
-    df = pd.read_csv(r"C:\Users\scttc\PycharmProjects\CityClusters\files\\" + area + ".csv")
+    df = pd.read_csv(r"C:\Users\scttc\PycharmProjects\CityClusters\files\\" + area + ".csv") #New_York_City.csv
     df = df.sort_values("City")
     df = df.drop_duplicates(subset='City', keep='first')
     gmaps = googlemaps.Client(key=api)
@@ -33,7 +37,7 @@ if __name__ == '__main__':
     placesdf = pd.DataFrame(places, columns=['Name', 'Lat', 'Lng', 'Color'])
     placesdf.to_csv('files\\' + area + '_values.csv', index = False)
     pd.DataFrame(errors).to_csv('files\\' + area + '_errors.csv', index = False)
-    knn.knn(placesdf, area)
+    knn.knn(placesdf, area, numGroups, api)
     # places = knn(placesdf)
     # places.to_csv('files\\houston_results.csv', index=False)
     #

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="be19a1a0-948f-4380-898e-bb0954a69f4d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.~lock.colors.txt#" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Orlando_map.html" beforeDir="false" afterPath="$PROJECT_DIR$/Orlando_map.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cluster.py" beforeDir="false" afterPath="$PROJECT_DIR$/cluster.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/.~lock.Jacksonville.csv#" beforeDir="false" />
@@ -133,10 +132,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="2" key="#Inspections/1920.-523.1280.700/0.0.1280.680@0.0.1280.680" timestamp="1625264844251" />
-    <state x="3936" y="366" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1630437276309">
+    <state x="3936" y="366" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1630525529573">
       <screen x="3840" y="366" width="1280" height="680" />
     </state>
-    <state x="3936" y="366" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/3840.366.1280.680@3840.366.1280.680" timestamp="1630437276309" />
+    <state x="3936" y="366" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/3840.366.1280.680@3840.366.1280.680" timestamp="1630525529573" />
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.-523.1280.700/0.0.1280.680@0.0.1280.680" timestamp="1625615827798" />
     <state x="4261" y="464" key="FileChooserDialogImpl" timestamp="1630435370194">
       <screen x="3840" y="366" width="1280" height="680" />
@@ -201,12 +200,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/cluster.py</url>
-          <line>47</line>
+          <line>46</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/cluster.py</url>
-          <line>35</line>
+          <line>34</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">

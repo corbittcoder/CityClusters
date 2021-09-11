@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be19a1a0-948f-4380-898e-bb0954a69f4d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/maps/Austin_map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/Austin_map1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/Jacksonville_map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/Miami_map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/Orlando_map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/San_Antonio_map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/Tampa_map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/houston_map.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orlando_map.html" beforeDir="false" afterPath="$PROJECT_DIR$/Orlando_map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluster.py" beforeDir="false" afterPath="$PROJECT_DIR$/cluster.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/.~lock.Jacksonville.csv#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/.~lock.Orlando_values.csv#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Orlando_values.csv" beforeDir="false" afterPath="$PROJECT_DIR$/files/Orlando_values.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knn.py" beforeDir="false" afterPath="$PROJECT_DIR$/knn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Austin_map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Austin_map1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jacksonville_map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Miami_map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orlando_map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/San_Antonio_map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tampa_map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/houston_map.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/plot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

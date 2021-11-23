@@ -4,10 +4,10 @@ import knn
 
 import pandas as pd
 
+NUM_GROUPS = 120
 if __name__ == '__main__':
     api = ""
     area = ""
-    numGroups = 0
     if len(sys.argv) != 4:
         print('Usage: cluster.py <GOOGLE DISTANCE MATRIX API KEY> <CITY NAME> <NUM GROUPS>')
         exit(1)
@@ -15,29 +15,30 @@ if __name__ == '__main__':
         api = sys.argv[1]
         area = sys.argv[2]
         try:
-            numGroups = int(sys.argv[3])
+            NUM_GROUPS = int(sys.argv[3])
         except:
             print('Usage: cluster.py <GOOGLE DISTANCE MATRIX API KEY> <CITY NAME> <NUM GROUPS>')
 
     df = pd.read_csv(r"C:\Users\scttc\PycharmProjects\CityClusters\files\\" + area + ".csv") #New_York_City.csv
-    df = df.sort_values("City")
-    df = df.drop_duplicates(subset='City', keep='first')
+    # df = df.sort_values("City")
+    # df = df.drop_duplicates(subset='City', keep='first')
     gmaps = googlemaps.Client(key=api)
     places = []#['Orange,Orange,TX', 30.0929879, -93.7365549, 'Red'],['Kountze,Hardin,TX', 30.3715975, -94.31241159999999, 'Blue']
-    colors = ['Red', 'Blue', 'Purple', 'Green'] #colors of groups
+    # colors = ['Red', 'Blue', 'Purple', 'Green'] #colors of groups
     errors = []
     for index, row in df.iterrows():
-        name = row['City'] + ", " + row['State']
+        address = row['Address'] + ", " + row['City'] + "," + row['State'] + "," + row['Zip code']
         try:
-            coordinates = gmaps.geocode(name)[0]['geometry']['location']
-            places.append([name, coordinates['lat'], coordinates['lng'], index % len(colors)]) #assign colors randomly at start
+            coordinates = gmaps.geocode(address)[0]['geometry']['location']
+            places.append([address, coordinates['lat'], coordinates['lng'], index % NUM_GROUPS,
+                           row['Visitation frequency'], row['Total hours']]) #assign colors randomly at start
         except:
-            print("Place not found: " + name)
-            errors.append(name)
-    placesdf = pd.DataFrame(places, columns=['Name', 'Lat', 'Lng', 'Color'])
+            print("Place not found: " + address)
+            errors.append(address)
+    placesdf = pd.DataFrame(places, columns=['Address', 'Lat', 'Lng', 'Color', 'NumVisits', 'Hours'])
     placesdf.to_csv('files\\' + area + '_values.csv', index = False)
     pd.DataFrame(errors).to_csv('files\\' + area + '_errors.csv', index = False)
-    knn.knn(placesdf, area, numGroups, api)
+    knn.knn(placesdf, area, NUM_GROUPS, api)
     # places = knn(placesdf)
     # places.to_csv('files\\houston_results.csv', index=False)
     #

@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="be19a1a0-948f-4380-898e-bb0954a69f4d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluster.py" beforeDir="false" afterPath="$PROJECT_DIR$/cluster.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knn.py" beforeDir="false" afterPath="$PROJECT_DIR$/knn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maps/Orlando_map.html" beforeDir="false" afterPath="$PROJECT_DIR$/maps/Orlando_map.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/plot.py" afterDir="false" />
     </list>
@@ -34,9 +36,9 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/knn.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.cluster">
+  <component name="RunManager" selected="Python.Knn">
     <configuration name="Knn" type="PythonConfigurationType" factoryName="Python">
       <module name="CityClusters" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -50,7 +52,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knn.py" />
-      <option name="PARAMETERS" value="AIzaSyBBn9dsC8U-BP9PsYNqa6pjjbu6t9UstLw Orlando 5" />
+      <option name="PARAMETERS" value="AIzaSyBBn9dsC8U-BP9PsYNqa6pjjbu6t9UstLw Illinois 120" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -71,7 +73,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cluster.py" />
-      <option name="PARAMETERS" value="AIzaSyBBn9dsC8U-BP9PsYNqa6pjjbu6t9UstLw Orlando 5" />
+      <option name="PARAMETERS" value="AIzaSyBBn9dsC8U-BP9PsYNqa6pjjbu6t9UstLw practice 5" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -101,8 +103,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.cluster" />
       <item itemvalue="Python.Knn" />
+      <item itemvalue="Python.cluster" />
       <item itemvalue="Python.plot" />
     </list>
   </component>
@@ -123,86 +125,72 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="2" key="#Inspections" timestamp="1625264844251">
+    <state x="3936" y="366" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1637652315735">
+      <screen x="3840" y="366" width="1280" height="680" />
+    </state>
+    <state x="3936" y="366" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/3840.366.1280.680@3840.366.1280.680" timestamp="1637652315735" />
+    <state x="421" y="98" key="FileChooserDialogImpl" timestamp="1631916790677">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="2" key="#Inspections/1920.-523.1280.700/0.0.1280.680@0.0.1280.680" timestamp="1625264844251" />
-    <state x="3936" y="366" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631344313585">
-      <screen x="3840" y="366" width="1280" height="680" />
-    </state>
-    <state x="3936" y="366" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/3840.366.1280.680@3840.366.1280.680" timestamp="1631344313585" />
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.-523.1280.700/0.0.1280.680@0.0.1280.680" timestamp="1625615827798" />
-    <state x="4261" y="464" key="FileChooserDialogImpl" timestamp="1630435370194">
-      <screen x="3840" y="366" width="1280" height="680" />
-    </state>
+    <state x="421" y="98" key="FileChooserDialogImpl/0.0.1280.680/3840.366.1280.680@0.0.1280.680" timestamp="1631916790677" />
     <state x="4261" y="464" key="FileChooserDialogImpl/0.0.1280.680/3840.366.1280.680@3840.366.1280.680" timestamp="1630435370194" />
-    <state x="421" y="98" key="FileChooserDialogImpl/1920.-523.1280.700/0.0.1280.680@0.0.1280.680" timestamp="1625519192537" />
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1631345067355">
+    <state width="1261" height="166" key="GridCell.Tab.0.bottom" timestamp="1637654193451">
       <screen x="3840" y="366" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/3840.366.1280.680@3840.366.1280.680" timestamp="1631345067355" />
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/1920.-523.1280.700/0.0.1280.680@0.0.1280.680" timestamp="1625615829346" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1631345067355">
+    <state width="1259" height="166" key="GridCell.Tab.0.bottom/0.0.1280.680/3840.366.1280.680@0.0.1280.680" timestamp="1634013390096" />
+    <state width="1261" height="166" key="GridCell.Tab.0.bottom/0.0.1280.680/3840.366.1280.680@3840.366.1280.680" timestamp="1637654193451" />
+    <state width="1261" height="166" key="GridCell.Tab.0.center" timestamp="1637654193451">
       <screen x="3840" y="366" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680/3840.366.1280.680@3840.366.1280.680" timestamp="1631345067355" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center/1920.-523.1280.700/0.0.1280.680@0.0.1280.680" timestamp="1625615829346" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1631345067355">
+    <state width="1259" height="166" key="GridCell.Tab.0.center/0.0.1280.680/3840.366.1280.680@0.0.1280.680" timestamp="1634013390096" />
+    <state width="1261" height="166" key="GridCell.Tab.0.center/0.0.1280.680/3840.366.1280.680@3840.366.1280.680" timestamp="1637654193451" />
+    <state width="1261" height="166" key="GridCell.Tab.0.left" timestamp="1637654193451">
       <screen x="3840" y="366" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680/3840.366.1280.680@3840.366.1280.680" timestamp="1631345067355" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left/1920.-523.1280.700/0.0.1280.680@0.0.1280.680" timestamp="1625615829346" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1631345067355">
+    <state width="1259" height="166" key="GridCell.Tab.0.left/0.0.1280.680/3840.366.1280.680@0.0.1280.680" timestamp="1634013390096" />
+    <state width="1261" height="166" key="GridCell.Tab.0.left/0.0.1280.680/3840.366.1280.680@3840.366.1280.680" timestamp="1637654193451" />
+    <state width="1261" height="166" key="GridCell.Tab.0.right" timestamp="1637654193451">
       <screen x="3840" y="366" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680/3840.366.1280.680@3840.366.1280.680" timestamp="1631345067355" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right/1920.-523.1280.700/0.0.1280.680@0.0.1280.680" timestamp="1625615829346" />
-    <state width="1259" height="189" key="GridCell.Tab.1.bottom" timestamp="1630436243967">
+    <state width="1259" height="166" key="GridCell.Tab.0.right/0.0.1280.680/3840.366.1280.680@0.0.1280.680" timestamp="1634013390096" />
+    <state width="1261" height="166" key="GridCell.Tab.0.right/0.0.1280.680/3840.366.1280.680@3840.366.1280.680" timestamp="1637654193451" />
+    <state width="1261" height="189" key="GridCell.Tab.1.bottom" timestamp="1637654005560">
       <screen x="3840" y="366" width="1280" height="680" />
     </state>
-    <state width="1259" height="189" key="GridCell.Tab.1.bottom/0.0.1280.680/3840.366.1280.680@3840.366.1280.680" timestamp="1630436243967" />
-    <state width="1259" height="189" key="GridCell.Tab.1.bottom/1920.-523.1280.700/0.0.1280.680@0.0.1280.680" timestamp="1625552697758" />
-    <state width="1259" height="189" key="GridCell.Tab.1.center" timestamp="1630436243967">
+    <state width="1261" height="189" key="GridCell.Tab.1.bottom/0.0.1280.680/3840.366.1280.680@0.0.1280.680" timestamp="1631916809166" />
+    <state width="1261" height="189" key="GridCell.Tab.1.bottom/0.0.1280.680/3840.366.1280.680@3840.366.1280.680" timestamp="1637654005560" />
+    <state width="1261" height="189" key="GridCell.Tab.1.center" timestamp="1637654005560">
       <screen x="3840" y="366" width="1280" height="680" />
     </state>
-    <state width="1259" height="189" key="GridCell.Tab.1.center/0.0.1280.680/3840.366.1280.680@3840.366.1280.680" timestamp="1630436243967" />
-    <state width="1259" height="189" key="GridCell.Tab.1.center/1920.-523.1280.700/0.0.1280.680@0.0.1280.680" timestamp="1625552697758" />
-    <state width="1259" height="189" key="GridCell.Tab.1.left" timestamp="1630436243967">
+    <state width="1261" height="189" key="GridCell.Tab.1.center/0.0.1280.680/3840.366.1280.680@0.0.1280.680" timestamp="1631916809165" />
+    <state width="1261" height="189" key="GridCell.Tab.1.center/0.0.1280.680/3840.366.1280.680@3840.366.1280.680" timestamp="1637654005560" />
+    <state width="1261" height="189" key="GridCell.Tab.1.left" timestamp="1637654005559">
       <screen x="3840" y="366" width="1280" height="680" />
     </state>
-    <state width="1259" height="189" key="GridCell.Tab.1.left/0.0.1280.680/3840.366.1280.680@3840.366.1280.680" timestamp="1630436243967" />
-    <state width="1259" height="189" key="GridCell.Tab.1.left/1920.-523.1280.700/0.0.1280.680@0.0.1280.680" timestamp="1625552697757" />
-    <state width="1259" height="189" key="GridCell.Tab.1.right" timestamp="1630436243967">
+    <state width="1261" height="189" key="GridCell.Tab.1.left/0.0.1280.680/3840.366.1280.680@0.0.1280.680" timestamp="1631916809165" />
+    <state width="1261" height="189" key="GridCell.Tab.1.left/0.0.1280.680/3840.366.1280.680@3840.366.1280.680" timestamp="1637654005559" />
+    <state width="1261" height="189" key="GridCell.Tab.1.right" timestamp="1637654005560">
       <screen x="3840" y="366" width="1280" height="680" />
     </state>
-    <state width="1259" height="189" key="GridCell.Tab.1.right/0.0.1280.680/3840.366.1280.680@3840.366.1280.680" timestamp="1630436243967" />
-    <state width="1259" height="189" key="GridCell.Tab.1.right/1920.-523.1280.700/0.0.1280.680@0.0.1280.680" timestamp="1625552697758" />
-    <state width="647" height="347" key="XDebugger.FullValuePopup" timestamp="1625275250204">
+    <state width="1261" height="189" key="GridCell.Tab.1.right/0.0.1280.680/3840.366.1280.680@0.0.1280.680" timestamp="1631916809166" />
+    <state width="1261" height="189" key="GridCell.Tab.1.right/0.0.1280.680/3840.366.1280.680@3840.366.1280.680" timestamp="1637654005560" />
+    <state x="350" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1634272136332">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="647" height="347" key="XDebugger.FullValuePopup/1920.-523.1280.700/0.0.1280.680@0.0.1280.680" timestamp="1625275250204" />
-    <state x="350" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1630424067815">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
+    <state x="350" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680/3840.366.1280.680@0.0.1280.680" timestamp="1634272136332" />
     <state x="350" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680/3840.366.1280.680@3840.366.1280.680" timestamp="1630424067815" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1625514242572">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="4223" y="366" key="refactoring.ChangeSignatureDialog" timestamp="1637652459335">
+      <screen x="3840" y="366" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/1920.-523.1280.700/0.0.1280.680@0.0.1280.680" timestamp="1625514242572" />
+    <state x="4223" y="366" key="refactoring.ChangeSignatureDialog/0.0.1280.680/3840.366.1280.680@3840.366.1280.680" timestamp="1637652459335" />
+    <state x="4143" y="367" width="672" height="678" key="search.everywhere.popup" timestamp="1637636760320">
+      <screen x="3840" y="366" width="1280" height="680" />
+    </state>
+    <state x="4143" y="367" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/3840.366.1280.680@3840.366.1280.680" timestamp="1637636760320" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/cluster.py</url>
-          <line>46</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/cluster.py</url>
-          <line>34</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/plot.py</url>
           <line>15</line>

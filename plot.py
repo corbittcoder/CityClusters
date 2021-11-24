@@ -10,10 +10,10 @@ def plot(places, name, numGroups, api):
     # colors = list(map(lambda x: '#%02x%02x%02x' % (int(x[0]*255), int(x[1]*255), int(x[2]*255)), palette))
     # colors = ['magenta', 'turquoise', 'red', 'blue', 'green', 'yellow', 'purple', 'pink', 'orange', 'brown'] #colors of groups
     colors = sns.color_palette(colors, numGroups, as_cmap=True)
-    gmap = gmplot.GoogleMapPlotter.from_geocode(name + ", Florida", apikey=api)
-    for i in range(len(colors)):
+    gmap = gmplot.GoogleMapPlotter.from_geocode(name, apikey=api)
+    for i in range(numGroups):
         group = places[places.Color == i]
-        gmap.scatter(group.Lat.tolist(), group.Lng.tolist(), color=colors[i])
+        gmap.scatter(group.Lat.tolist(), group.Lng.tolist(), color=colors[i % len(colors)])
     gmap.draw(r"C:\Users\scttc\PycharmProjects\CityClusters\maps\\" + name + "_map.html")
 
 if __name__ == '__main__':

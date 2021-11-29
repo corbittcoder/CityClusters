@@ -4,7 +4,6 @@ import knn
 
 import pandas as pd
 
-NUM_GROUPS = 120
 if __name__ == '__main__':
     api = ""
     area = ""
@@ -19,7 +18,7 @@ if __name__ == '__main__':
         except:
             print('Usage: cluster.py <GOOGLE DISTANCE MATRIX API KEY> <CITY NAME> <NUM GROUPS>')
 
-    df = pd.read_csv(r"C:\Users\scttc\PycharmProjects\CityClusters\files\\" + area + ".csv") #New_York_City.csv
+    df = pd.read_csv(r"files\\" + area + ".csv") #New_York_City.csv
     # df = df.sort_values("City")
     # df = df.drop_duplicates(subset='City', keep='first')
     gmaps = googlemaps.Client(key=api)

@@ -32,7 +32,8 @@ def knn(places, name, numGroups, api):
                 distances[i] = lng ** 2 + lat ** 2 + color.Hours
                 if distances[i] < distances[mindex]:
                     mindex = i
-            if mindex != color:
+            print(color.Color)
+            if mindex != color.Color:
                 centers.loc[mindex, 'Hours'] += places.loc[index, 'Hours']  # Add hours to group
                 centers.loc[color, 'Hours'] -= places.loc(index, 'Hours')
             places.loc[index, 'Color'] = mindex
@@ -69,6 +70,6 @@ if __name__ == '__main__':
             numGroups = int(sys.argv[3])
         except:
             print('Usage: knn.py <GOOGLE API KEY> <CITY NAME> <NUM GROUPS>')
-    places = pd.read_csv(r"C:\Users\scttc\PycharmProjects\CityClusters\files\\" + name + "_values.csv")
+    places = pd.read_csv(r"files\\" + name + "_values.csv")
     knn(places, name, numGroups, api)
 

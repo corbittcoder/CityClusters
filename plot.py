@@ -14,7 +14,7 @@ def plot(places, name, numGroups, api):
     for i in range(numGroups):
         group = places[places.Color == i]
         gmap.scatter(group.Lat.tolist(), group.Lng.tolist(), color=colors[i % len(colors)])
-    gmap.draw(r"C:\Users\scttc\PycharmProjects\CityClusters\maps\\" + name + "_map.html")
+    gmap.draw(r"maps\\" + name + "_map.html")
 
 if __name__ == '__main__':
     api = ''
@@ -30,6 +30,6 @@ if __name__ == '__main__':
             numGroups = int(sys.argv[3])
         except:
             print('Usage: plot.py <GOOGLE API KEY> <CITY NAME> <NUM GROUPS>')
-    places = pd.read_csv(r"C:\Users\scttc\PycharmProjects\CityClusters\files\\" + name + "_results.csv")
+    places = pd.read_csv(r"files\\" + name + "_results.csv")
     plot(places, name, numGroups, api)
 

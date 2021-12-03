@@ -4,56 +4,65 @@ import sys
 
 import plot
 
-def knn(places, name, numGroups, api):
-    pd.options.mode.chained_assignment = None
-    CYCLES = 1
-    # colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'brown'] #colors of groups
-    # colors = colors[0, numGroups]
+def knn(places, numGroups):
+    numTimes = 5
     prevPlaces = pd.DataFrame()
-    places['Color'] = np.random.randint(0, numGroups, places.shape[0]) #randomly seed groups
-    while (CYCLES > 0): #not places.equals(prevPlaces)
+    while not places.equals(prevPlaces) and numTimes > 0:
         prevPlaces = places.copy()
-        #determine distance from each cluster
-        centers = pd.DataFrame(columns=['Color', 'Lat', 'Lng', 'Hours'])
-        for i in range(numGroups):
-            # get all points of that color
-            color = places[places.Color == i]
-            lat = np.mean(color.Lat)
-            lng = np.mean(color.Lng)
-            hours = np.sum(color.Hours)
-            centers = centers.append(pd.DataFrame({'Color': [i], 'Lat': [lat], 'Lng': [lng], 'Hours': [hours]}))
 
+        #determine distance from each cluster
         for index, row in places.iterrows():
-            distances = np.zeros(numGroups)
+            # distances = np.zeros(numGroups)
             mindex = 0 #index of minimum distance
-            for i, color in centers.iterrows():
-                lng = color.Lng * 52 / 45 * row.NumVisits #conversion rate to hours of travel time
-                lat = color.Lat * 69 / 45 * row.NumVisits #conversion rate to hours of travel time
-                distances[i] = lng ** 2 + lat ** 2 + color.Hours
+            #Get 5 closest points to current point
+            places['Distances'] = abs(places.Lng - row.Lng) + abs(places.Lat - row.Lat)
+            colors = places.sort_values(by=['Distances']).iloc[0:5]['Color'].unique()
+            distances = np.zeros(len(colors))
+            for i in range(len(colors)):
+
+                #get all points of that color
+                color = places[places.Color == colors[i]]
+
+                #Calculate distance from all points
+                color.Lng -= row['Lng']
+                color.Lat -= row['Lat']
+                milesPerLat = 69
+                milesPerLng = 53
+                milesPerHour = 45
+                color['Distance'] = (abs(color.Lng) * milesPerLng + abs(color.Lat) * milesPerLat) / milesPerHour
+                    #color.assign(Distance=lambda color: (color.Lng ** 2 + color.Lat ** 2) ** .5)
+
+                # distances[i] = color.Distance.min(axis=0)
+                distances[i] = color.Distance.sum() / (len(color)) + color.Hours.sum() #don't want the cells to get too big
+
+                if row.Color == i:
+                    distances[i] -= row.Hours
                 if distances[i] < distances[mindex]:
                     mindex = i
-            print(color.Color)
-            if mindex != color.Color:
-                centers.loc[mindex, 'Hours'] += places.loc[index, 'Hours']  # Add hours to group
-                centers.loc[color, 'Hours'] -= places.loc(index, 'Hours')
-            places.loc[index, 'Color'] = mindex
-        print(CYCLES)
-        CYCLES -= 1
+            places.loc[index, 'Color'] = colors[mindex]
+        numTimes -= 1
+    return places
 
-    #Name clusters
-    # names = []
-    # for i in range(numGroups):
-    #     cluster = places[places.Color == i]
-    #     averageLocation = [cluster['Lat'].mean(), cluster['Lng'].mean()]
-    #     cluster.Lat -= averageLocation[0]
-    #     cluster.Lng -= averageLocation[1]
-    #     cluster = cluster.assign(Distance=lambda cluster: cluster.Lng ** 2 + cluster.Lat ** 2)
-    #     #find spot closest to the center
-    #     names = names.append(cluster[cluster.Distance == cluster.Distance.min()].Name[0])
+def main(places, name, numGroups, api):
+    #Group by zip code
+    hours = places.groupby(['ShortZip'])['Hours'].sum()
+    zips = places.drop_duplicates(subset=['ShortZip'])
 
+    #Sort by zip code groups to get rough groups
+    zips['Hours'] = zips.ShortZip.replace(hours)
+    zips['Color'] = np.random.randint(0, numGroups, zips.shape[0])
+    zips = knn(zips, numGroups)
 
-    places.to_csv('files\\' + name + '_results.csv', index = False)
+    #Assign groups to full dataframe
+    places['Color'] = places.ShortZip.replace(zips.set_index('ShortZip')['Color'])
+    #Now get exact groups starting from rough basis
+    places = knn(places, numGroups)
+
     #plot data points on map
+    try:
+        places.to_csv('files\\' + name + '_results.csv', index = False)
+    except:
+        print("Couldn't save")
     plot.plot(places, name, numGroups, api)
 
 if __name__ == '__main__':
@@ -71,5 +80,5 @@ if __name__ == '__main__':
         except:
             print('Usage: knn.py <GOOGLE API KEY> <CITY NAME> <NUM GROUPS>')
     places = pd.read_csv(r"files\\" + name + "_values.csv")
-    knn(places, name, numGroups, api)
+    main(places, name, numGroups, api)
 

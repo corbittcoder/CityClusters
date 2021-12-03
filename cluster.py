@@ -26,18 +26,22 @@ if __name__ == '__main__':
     # colors = ['Red', 'Blue', 'Purple', 'Green'] #colors of groups
     errors = []
     for index, row in df.iterrows():
-        address = row['Address'] + ", " + row['City'] + "," + row['State'] + "," + row['Zip code']
+        address = row['Address'] + ", " + row['City'] + "," + row['State'] + "," + str(row['Zip code full'])
         try:
             coordinates = gmaps.geocode(address)[0]['geometry']['location']
             places.append([address, coordinates['lat'], coordinates['lng'], index % NUM_GROUPS,
-                           row['Visitation frequency'], row['Total hours']]) #assign colors randomly at start
+                           row['Visitation frequency'], row['Total hours'], row['Zip Code']]) #assign colors randomly at start
+            print(index)
         except:
             print("Place not found: " + address)
             errors.append(address)
-    placesdf = pd.DataFrame(places, columns=['Address', 'Lat', 'Lng', 'Color', 'NumVisits', 'Hours'])
-    placesdf.to_csv('files\\' + area + '_values.csv', index = False)
+    placesdf = pd.DataFrame(places, columns=['Address', 'Lat', 'Lng', 'Color', 'NumVisits', 'Hours', 'ShortZip'])
+    try:
+        placesdf.to_csv('files\\' + area + '_values.csv', index = False)
+    except:
+        print("Couldn't save")
     pd.DataFrame(errors).to_csv('files\\' + area + '_errors.csv', index = False)
-    knn.knn(placesdf, area, NUM_GROUPS, api)
+    knn.main(placesdf, area, NUM_GROUPS, api)
     # places = knn(placesdf)
     # places.to_csv('files\\houston_results.csv', index=False)
     #

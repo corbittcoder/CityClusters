@@ -1,11 +1,11 @@
 import pandas as pd
 import numpy as np
 import sys
-
+pd.options.mode.chained_assignment = None
 import plot
 
 def knn(places, numGroups):
-    numTimes = 5
+    numTimes = 20
     prevPlaces = pd.DataFrame()
     while not places.equals(prevPlaces) and numTimes > 0:
         prevPlaces = places.copy()
@@ -13,15 +13,15 @@ def knn(places, numGroups):
         #determine distance from each cluster
         for index, row in places.iterrows():
             # distances = np.zeros(numGroups)
-            mindex = 0 #index of minimum distance
             #Get 5 closest points to current point
             places['Distances'] = abs(places.Lng - row.Lng) + abs(places.Lat - row.Lat)
-            colors = places.sort_values(by=['Distances']).iloc[0:5]['Color'].unique()
-            distances = np.zeros(len(colors))
-            for i in range(len(colors)):
+            colors = places.sort_values(by=['Distances']).iloc[0:20]['Color'].unique()[0:3]
+            distances = pd.Series(data = np.zeros(len(colors)), index = colors)
+            mindex = colors[0] #index of minimum distance
+            for i in colors:
 
                 #get all points of that color
-                color = places[places.Color == colors[i]]
+                color = places[places.Color == i]
 
                 #Calculate distance from all points
                 color.Lng -= row['Lng']
@@ -29,18 +29,19 @@ def knn(places, numGroups):
                 milesPerLat = 69
                 milesPerLng = 53
                 milesPerHour = 45
-                color['Distance'] = (abs(color.Lng) * milesPerLng + abs(color.Lat) * milesPerLat) / milesPerHour
+                color['Distance'] = (abs(color.Lng) * milesPerLng + abs(color.Lat) * milesPerLat)
                     #color.assign(Distance=lambda color: (color.Lng ** 2 + color.Lat ** 2) ** .5)
 
                 # distances[i] = color.Distance.min(axis=0)
-                distances[i] = color.Distance.sum() / (len(color)) + color.Hours.sum() #don't want the cells to get too big
+                distances[i] = color.Distance.sum() / milesPerHour / len(color) * row.NumVisits + color.Hours.sum() #don't want the cells to get too big
 
                 if row.Color == i:
                     distances[i] -= row.Hours
                 if distances[i] < distances[mindex]:
                     mindex = i
-            places.loc[index, 'Color'] = colors[mindex]
+            places.loc[index, 'Color'] = mindex
         numTimes -= 1
+        print(numTimes)
     return places
 
 def main(places, name, numGroups, api):
@@ -51,6 +52,7 @@ def main(places, name, numGroups, api):
     #Sort by zip code groups to get rough groups
     zips['Hours'] = zips.ShortZip.replace(hours)
     zips['Color'] = np.random.randint(0, numGroups, zips.shape[0])
+    zips['NumVisits'] = np.ones(len(zips))
     zips = knn(zips, numGroups)
 
     #Assign groups to full dataframe

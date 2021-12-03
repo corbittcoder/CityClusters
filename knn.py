@@ -33,10 +33,11 @@ def knn(places, numGroups):
                     #color.assign(Distance=lambda color: (color.Lng ** 2 + color.Lat ** 2) ** .5)
 
                 # distances[i] = color.Distance.min(axis=0)
-                distances[i] = (color.Distance.sum() / MILES_PER_HOUR / len(color) * row.NumVisits) + (color.Hours.sum() / 10) #don't want the cells to get too big
+                distances[i] = (color.Distance.sum() / MILES_PER_HOUR / len(color))
+                distances[i] += (color.Hours.sum() / 10) #progressively weight total hours more as
 
                 if row.Color == i:
-                    distances[i] -= row.Hours
+                    distances[i] -= row.Hours / 10
                 if distances[i] < distances[mindex]:
                     mindex = i
             places.loc[index, 'Color'] = mindex
@@ -63,21 +64,24 @@ def main(places, name, numGroups, api):
     # distanceOnly['Hours'] = np.zeros(len(places))
     # distanceOnly = knn(distanceOnly, numGroups)
     #Now get exact groups starting from rough basis
+    places = places.sort_values(by=['Hours'])
     places = knn(places, numGroups)
 
     #Calculate man-hours for each group
-    hours = places.groupby(['Color'])['Hours'].sum()
-    for color, totalHours in hours.items():
+    workHours = places.groupby(['Color'])['Hours'].sum()
+    travelHours = np.zeros(len(workHours))
+    for color, totalHours in workHours.items():
         group = places[places.Color == color]
         group.Lat -= group['Lat'].mean()
         group.Lng -= group['Lng'].mean()
         group['Distance'] = (abs(group.Lng) * MILES_PER_LNG + abs(group.Lat) * MILES_PER_LAT) * group.NumVisits
-        hours[color] = group.Distance.sum() / MILES_PER_HOUR + totalHours
+        travelHours[color] = group.Distance.sum() / MILES_PER_HOUR
 
     #plot data points on map
     try:
         places.to_csv('files\\' + name + '_results.csv', index = False)
-        hours.to_csv('files\\' + name + '_hours.csv', index=False)
+        workHours.to_csv('files\\' + name + '_workHours.csv', index=False)
+        pd.DataFrame(travelHours).to_csv('files\\' + name + '_travelHours.csv', index=False)
     except:
         print("Couldn't save")
     plot.plot(places, name, api)
